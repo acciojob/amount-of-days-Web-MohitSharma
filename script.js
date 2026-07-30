@@ -1,5 +1,6 @@
 //your JS code here. If required.
-// let year = prompt("Enter The Year:-")
+let year = prompt("Enter The Year:-")
+
 
 function yearDays(year){
 	if(year % 400 === 0 || (year % 4 ===0 && year % 100 !== 0)){
@@ -9,4 +10,4 @@ function yearDays(year){
 		return 365;
 	}
 }
-
+alert(`The Result is ${yearDays(year)}`)
